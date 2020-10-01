@@ -3,9 +3,6 @@ import React from 'react';
 function Nav(props) {
     const {
         // contactSelected,
-        // contactSelected,
-        // contactSelected,
-        // contactSelected,
         setAboutSelected,
         setPortfolioSelected,
         setContactSelected,
