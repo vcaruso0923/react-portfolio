@@ -4,7 +4,7 @@ function Resume() {
 
     return (
         <div>
-            Resume
+            <a href="../../assets/documents/VincentCarusoResume.docx" download="Vincent Caruso's Resume.docx">Download My Resume</a>
         </div>
     );
 }
