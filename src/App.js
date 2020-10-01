@@ -32,12 +32,16 @@ function App() {
     pageName = "Resume"
   }
 
-  useEffect(() => {document.title = pageName;})
+  useEffect(() => { document.title = pageName; })
 
   return (
     <div>
       <>
         <Nav
+          aboutSelected={aboutSelected}
+          portfolioSelected={portfolioSelected}
+          contactSelected={contactSelected}
+          resumeSelected={resumeSelected}
           setAboutSelected={setAboutSelected}
           setPortfolioSelected={setPortfolioSelected}
           setContactSelected={setContactSelected}
