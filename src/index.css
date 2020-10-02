@@ -2,6 +2,7 @@
   --primary-color: rgb(25, 26, 29);
   --secondary-color: white;
   --tertiary-color: rgb(33, 206, 153);
+  --tertiary-color-hovered: rgb(32, 179, 134);
 }
 
 body {
@@ -129,6 +130,54 @@ header nav ul li:hover::after {
   font-size: 2vw;
   padding-bottom: .5vw;
 }
+
+#portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  color: var(--secondary-color);
+}
+
+#project {
+  margin-bottom: 4vw;
+}
+
+.project-image {
+  border: 5px solid var(--tertiary-color);
+  border-radius: 2px;
+  max-width: 40vw;
+}
+.project-image:hover {
+  opacity: 80%;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.project-info h3 {
+  margin: 1vw;
+}
+
+.custom-button {
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 3.5px;
+  background-color: var(--tertiary-color);
+  border-color: var(--primary-color);
+}
+
+.custom-button:hover {
+  background-color: var(--tertiary-color-hovered);
+  border-color: var(--secondary-color);
+}
+
 
 footer {
   display: flex;

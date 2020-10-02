@@ -42,18 +42,22 @@ function Projects() {
     ]
 
     return (
-        <div>
+        <div id="portfolio">
             {photos.map(imageInfo => (
-                <div>
+                <div id="project">
                     <a href={imageInfo.link}>
                         <img
                             src={require(`../../assets/images/${imageInfo.imagePath}.PNG`)}
                             alt={imageInfo.name}
                             key={imageInfo.name}
+                            className="project-image"
                         />
                     </a>
-                    <h3>{imageInfo.name}</h3>
-                    <a href={imageInfo.repo}>Github Links</a>
+                    <div className="project-info">
+                        <h3>{imageInfo.name}</h3>
+                        <a className="custom-button" href={imageInfo.repo}>Github Links</a>
+                        <a className="custom-button" href={imageInfo.link}>Website</a>
+                    </div>
                 </div>
             ))}
         </div>
