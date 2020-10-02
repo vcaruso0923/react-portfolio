@@ -47,7 +47,9 @@ function App() {
           setContactSelected={setContactSelected}
           setResumeSelected={setResumeSelected}
         ></Nav>
-        {currentPage}
+        <div className="content">
+          {currentPage}
+        </div>
         <Footer></Footer>
       </>
     </div>

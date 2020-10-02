@@ -93,12 +93,42 @@ header nav ul li:hover::after {
   left: 0;
 }
 
+.content {
+  background-color: var(--primary-color);
+  margin: 4vw
+}
 
+.about-section {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  color: var(--secondary-color);
+}
 
+.about-section img {
+  border: 2.5px solid var(--tertiary-color);
+  border-radius: 2px;
+  max-width: 24vw;
+}
 
+#bio-wrapper {
+  color: white;
+  text-align: center;
+}
 
+#bio-line-1 {
+  font-weight: 400;
+  font-size: 4vw;
+  padding-bottom: 1vw;
+  margin: 0px;
+}
 
-
+.bio-body {
+  font-size: 2vw;
+  padding-bottom: .5vw;
+}
 
 footer {
   display: flex;
@@ -118,8 +148,9 @@ footer ul {
   justify-content: space-evenly;
   align-items: center;
   padding: 0px 30px;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
+
 footer ul li {
   padding: 5px;
   margin: 0px 60px;
@@ -127,7 +158,7 @@ footer ul li {
   position: relative;
 }
 
-footer ul li a:hover{
+footer ul li a:hover {
   color: var(--tertiary-color);
 }
 
