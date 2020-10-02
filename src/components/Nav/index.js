@@ -16,7 +16,7 @@ function Nav(props) {
         <header>
             <h2>
                 Vincent Caruso
-    </h2>
+            </h2>
             <nav>
                 <ul>
                 <li className={`${aboutSelected && 'navActive'}`}>
