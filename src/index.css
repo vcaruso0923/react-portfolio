@@ -94,3 +94,59 @@ header nav ul li:hover::after {
 }
 
 
+
+
+
+
+
+
+footer {
+  display: flex;
+  background-color: var(--primary-color);
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 30px;
+  font-size: 1.5vw;
+}
+footer ul li {
+  padding: 5px;
+  margin: 0px 60px;
+  color: var(--secondary-color);
+  position: relative;
+}
+
+footer ul li a:hover{
+  color: var(--tertiary-color);
+}
+
+footer ul li::after {
+  border-top: 3px solid var(--tertiary-color);
+  content: "";
+  position: absolute;
+  right: 99%;
+  bottom: .04em;
+  left: 99%;
+  transition: .4s cubic-bezier(0, .5, 0, 1);
+}
+
+footer ul li:hover::after {
+  right: 0;
+  left: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
