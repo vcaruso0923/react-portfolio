@@ -31,7 +31,7 @@ No contributions please
 ## Tests
 
 ## Screenshot
-![React Portfolio](./demo.PNG)
+![React Portfolio](/demo.PNG)
 
 
 ## Questions
