@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.1b920ac1.chunk.css",
+    "main.js": "/photo-port/static/js/main.a434adf5.chunk.js",
+    "main.js.map": "/photo-port/static/js/main.a434adf5.chunk.js.map",
+    "runtime-main.js": "/photo-port/static/js/runtime-main.75070f25.js",
+    "runtime-main.js.map": "/photo-port/static/js/runtime-main.75070f25.js.map",
+    "static/js/2.e343032d.chunk.js": "/photo-port/static/js/2.e343032d.chunk.js",
+    "static/js/2.e343032d.chunk.js.map": "/photo-port/static/js/2.e343032d.chunk.js.map",
+    "index.html": "/photo-port/index.html",
+    "precache-manifest.2e47cac9bf42644eb35080ec98d15fa7.js": "/photo-port/precache-manifest.2e47cac9bf42644eb35080ec98d15fa7.js",
+    "service-worker.js": "/photo-port/service-worker.js",
+    "static/css/main.1b920ac1.chunk.css.map": "/photo-port/static/css/main.1b920ac1.chunk.css.map",
+    "static/js/2.e343032d.chunk.js.LICENSE.txt": "/photo-port/static/js/2.e343032d.chunk.js.LICENSE.txt",
+    "static/media/covid-data.PNG": "/photo-port/static/media/covid-data.df94ba96.PNG",
+    "static/media/critter-tracker.PNG": "/photo-port/static/media/critter-tracker.92630d9a.PNG",
+    "static/media/food-festival.PNG": "/photo-port/static/media/food-festival.1c4cd4e1.PNG",
+    "static/media/oh-snap.PNG": "/photo-port/static/media/oh-snap.77eb09ba.PNG",
+    "static/media/pizza-hunt.PNG": "/photo-port/static/media/pizza-hunt.a33995d9.PNG",
+    "static/media/pro.jpg": "/photo-port/static/media/pro.934d54af.jpg",
+    "static/media/weather-dashboard.PNG": "/photo-port/static/media/weather-dashboard.e4bb3792.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75070f25.js",
+    "static/js/2.e343032d.chunk.js",
+    "static/css/main.1b920ac1.chunk.css",
+    "static/js/main.a434adf5.chunk.js"
+  ]
+}
