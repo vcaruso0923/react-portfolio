@@ -146,6 +146,7 @@ header nav ul li:hover::after {
   border-radius: 2px;
   max-width: 40vw;
 }
+
 .project-image:hover {
   opacity: 80%;
 }
@@ -156,6 +157,7 @@ header nav ul li:hover::after {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .project-info h3 {
   margin: 1vw;
 }
@@ -189,6 +191,58 @@ input {
 textarea {
   width: 100%
 }
+
+#resume-section {
+  color: var(--secondary-color);
+  margin: auto;
+  width: 50%;
+  padding: 4vw 0;
+}
+
+#resume-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.5vw;
+}
+
+#resume-link-container {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#proficiencies-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: .5vw;
+  padding-bottom: 3vw;
+}
+
+#pro-header {
+  margin: auto;
+  width: 50%;
+}
+
+#pro-divider {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.custom-h2 {
+  font-size: 3.5vw;
+  margin: 1vw;
+}
+
+.custom-h3 {
+  font-size: 2.5vw;
+}
+
+.proficiencies-list {
+  font-size: 1.5vw;
+}
+
 
 
 
