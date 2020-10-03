@@ -44,15 +44,12 @@ function Projects() {
     return (
         <div id="portfolio">
             {photos.map(imageInfo => (
-                <div id="project">
-                    <a href={imageInfo.link}>
+                <div id="project" key={imageInfo.name}>
                         <img
                             src={require(`../../assets/images/${imageInfo.imagePath}.PNG`)}
                             alt={imageInfo.name}
-                            key={imageInfo.name}
                             className="project-image"
                         />
-                    </a>
                     <div className="project-info">
                         <h3>{imageInfo.name}</h3>
                         <a className="custom-button" href={imageInfo.repo}>Github Links</a>
