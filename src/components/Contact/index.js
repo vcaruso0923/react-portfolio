@@ -33,8 +33,8 @@ function ContactForm() {
     }
 
     return (
-        <section>
-            <h1>Contact me</h1>
+        <section id="contact-section">
+            <h1>Contact me.</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -53,7 +53,7 @@ function ContactForm() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 }
-                <button data-testid="testSubmit" type="submit">Submit</button>
+                <button className="custom-button" data-testid="testSubmit" type="submit">Submit</button>
             </form>
         </section>
     )
