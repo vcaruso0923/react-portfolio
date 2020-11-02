@@ -4,6 +4,12 @@ function Projects() {
 
     const photos = [
         {
+            name: 'Vroom',
+            repo: 'https://github.com/vcaruso0923/video-chatter',
+            link: 'https://pure-shelf-42623.herokuapp.com/',
+            imagePath: 'vroom',
+        },
+        {
             name: 'COVID-19 Data Hub',
             repo: 'https://github.com/tedpedersen/group-project-uc-berkeley',
             link: '=https://cvdatahub.com/',
@@ -26,12 +32,6 @@ function Projects() {
             repo: 'https://github.com/vcaruso0923/food-festival',
             link: 'https://vcaruso0923.github.io/food-festival/',
             imagePath: 'food-festival',
-        },
-        {
-            name: 'Pizza Hunt',
-            repo: 'https://github.com/vcaruso0923/pizza-hunt',
-            link: 'https://radiant-forest-06641.herokuapp.com/',
-            imagePath: 'pizza-hunt',
         },
         {
             name: 'Weather Dashboard',
