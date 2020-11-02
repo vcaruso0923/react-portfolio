@@ -1,7 +1,7 @@
 # React Portfolio   
 ## Description
 
-A SPA profile page to hold some of my projects and contact information
+A SPA profile to hold some of my projects and contact information
 
 ## Table of Contents
 
