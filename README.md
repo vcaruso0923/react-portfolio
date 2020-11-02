@@ -13,6 +13,7 @@ A SPA profile page to hold some of my projects and contact information
 * [Questions](#questions)
 
 ## Installation
+Clone the repository. Run 'npm i' to install all dependencies. Run 'npm start' to start the server locally.
 
 Visit the website at: https://vcaruso0923.github.io/react-portfolio/
 
